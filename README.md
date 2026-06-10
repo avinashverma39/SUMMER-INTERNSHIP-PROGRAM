@@ -2,7 +2,7 @@ SUMMER INTERNSHIP PROGRAM
 
 Welcome to my Summer Internship Program repository. This repository contains all the tasks, projects, assignments, documentation, and practical work completed during my internship at R.R. Group of Institutions.
 
-👨‍💻 Student Details
+/n👨‍💻 Student Details
 Name: Avinash Verma
 College: R.R. Group of Institutions
 Program: Summer Internship Program

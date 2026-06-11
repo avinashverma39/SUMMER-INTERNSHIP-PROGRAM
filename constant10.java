@@ -1,4 +1,4 @@
-class constant10
+class constant101
 {
 
 public static void main(String args[])

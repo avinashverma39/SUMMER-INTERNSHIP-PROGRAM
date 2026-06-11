@@ -6,7 +6,7 @@ class conditionalStatement{
         if(a>b)
         
          if(c>b)  
-            System.out.println("b is smaller")
+            System.out.println("b is smaller");
 
         else
           System.out.println("Get some out put");

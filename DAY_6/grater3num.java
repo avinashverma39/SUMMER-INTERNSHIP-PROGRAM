@@ -7,7 +7,8 @@ public class grater3num {
         int a = 10;
         int b = 15;
         int c = 20;
-
+      // using relational operator
+      
         if (a > b && a > c) {
             System.out.println("The greater number is: " + a);
         } else if (b > a && b > c) {

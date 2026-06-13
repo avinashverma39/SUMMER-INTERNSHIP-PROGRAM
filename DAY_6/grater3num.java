@@ -31,5 +31,10 @@ public class grater3num {
                 System.out.println("The greater number is: " + c);
             }
         }
+
+        // using ternary operator
+
+        int max = (a > b) ? (a > c ? a : c) : (b > c ? b : c);
+        System.out.println("The greater number is: " + max);    
     }
 }

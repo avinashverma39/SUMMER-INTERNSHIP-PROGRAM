@@ -19,7 +19,7 @@ public class My_intro {
         System.out.println("My Roll is: " + roll);
         System.out.println("My Name is: " + name);
         System.out.println("My College is: " + College);
-        System.out.println("My Percentage is: " + percentage);
+        System.out.println("My Percentage is: " + percentage + "%");
     }
 
     public static void main(String[] args) {

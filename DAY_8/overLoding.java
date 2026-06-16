@@ -19,14 +19,9 @@ public class overLoding {
     public static void main(String[] args) {
         overLoding obj = new overLoding();
 
-        // calling the method with two integer arguments
-        System.out.println("Sum of 10 and 20: " + obj.add(10, 20));
-
-        // calling the method with three integer arguments
-        System.out.println("Sum of 10, 20 and 30: " + obj.add(10, 20, 30));
-
-        // calling the method with two double arguments
-        System.out.println("Sum of 10.5 and 20.5: " + obj.add(10.5, 20.5));
+        System.out.println("Grater of 40 and 40: " + obj.add(40, 120));
+        System.out.println("Greater of 10, 20 and 40: " + obj.add(430, 403, 440));
+        System.out.println("Greater of 10.40 and 20.40: " + obj.add(10.40, 20.40));
     }
     
 }

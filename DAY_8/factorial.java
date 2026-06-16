@@ -4,10 +4,11 @@ package DAY_8;
 public class factorial {
 
     void fact(int n) {
-        for (int i = n - 1; i > 0; i--){
-            n = n * i;
+        int fact = 1;
+        for (int i = 1; i <= n; i++) {
+            fact = fact * i;
         }
-        System.out.println("Factorial is: " + n);
+        System.out.println("Factorial is: " + fact);
     }
 
     public static void main(String[] args) {

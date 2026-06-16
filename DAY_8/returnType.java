@@ -1,7 +1,5 @@
 package DAY_8;
 
-import DAY_4.evenOdd;
-
 public class returnType {
 
     boolean isEven(int num) {
@@ -17,7 +15,7 @@ public class returnType {
     }
 
     double calculateArea(double radius) {
-        return 3.14 * radius * radius;                // returns the area of a circle with the given radius
+        return Math.PI * radius * radius;                // returns the area of a circle with the given radius
     }
 
     public static void main(String[] args) {

@@ -1,17 +1,17 @@
 package DAY_8;
 
 public class overLoding {
-    // method to add two integers
+    // method to greater  two integers
     int add(int a, int b) {
         return (a>b) ? a : b;
     }
 
-    // method to add three integers
+    // method to greater three integers
     int add(int a, int b, int c) {
         return (a>b) ? (a>c ? a : c) : (b>c ? b : c);
     }
 
-    // method to add two double values
+    // method to greater two double values
     double add(double a, double b) {
         return (a>b) ? a : b;
     }

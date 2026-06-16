@@ -3,7 +3,7 @@ package DAY_8;
 //larger between 2 number using function 
 class CompareV {
 
-    static void compare(int a, int b) {
+    void compare(int a, int b) {
 
         // if (a > b) {
         // System.out.println("a is larger than b");
@@ -19,7 +19,8 @@ class CompareV {
         int n1 = 10;
         int n2 = 20;
 
-        compare(n1, n2);
+        CompareV obj = new CompareV(); //Instance of class
+        obj.compare(n1, n2);// function call
     }
 
 }

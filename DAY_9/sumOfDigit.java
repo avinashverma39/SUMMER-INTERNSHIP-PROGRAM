@@ -1,12 +1,11 @@
 package DAY_9;
 
-public class sumOfDigit {
+   class sumOfDigit {
 
     int sum(int num) {
         int sum = 0;
-        while (num > 0) {
-            sum = sum + num % 10;
-            num = num / 10;
+        for (int i = num; i > 0; i = i / 10) {
+            sum = sum + (i % 10);
         }
         return sum;
     }
@@ -16,4 +15,5 @@ public class sumOfDigit {
         int num = 12345;
         System.out.println("Sum of digits: " + obj.sum(num));
     }
+    
 }

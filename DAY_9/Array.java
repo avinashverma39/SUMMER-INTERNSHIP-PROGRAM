@@ -10,6 +10,10 @@ public static void main(String[] args) {
    {
     System.out.println(arr[i]);
    }
+   for(int i : arr)
+   {
+    System.out.println(i);
+   }
 }
 
 }

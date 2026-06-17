@@ -11,6 +11,7 @@ public class recursion {
         return num * factorial(num - 1);
     }
 
+    
     public static void main(String args[]) {
 
         recursion obj = new recursion();

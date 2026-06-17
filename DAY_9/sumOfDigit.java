@@ -5,7 +5,8 @@ package DAY_9;
     int sum(int num) {
         int sum = 0;
         for (int i = num; i > 0; i = i / 10) {
-            sum = sum + (i % 10);
+            int n = i % 10;
+            sum = sum + n;
         }
         return sum;
     }
@@ -15,5 +16,5 @@ package DAY_9;
         int num = 12345;
         System.out.println("Sum of digits: " + obj.sum(num));
     }
-    
+
 }

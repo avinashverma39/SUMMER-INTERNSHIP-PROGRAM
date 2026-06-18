@@ -2,6 +2,10 @@ package DAY_10;
 
 public class checkArrayEqual {
     boolean arr(int a[], int b[]) {
+
+        if (a.length != b.length) {
+            return false;
+        }
         int count = 0;
         for (int i = 0; i < a.length; i++) {
 

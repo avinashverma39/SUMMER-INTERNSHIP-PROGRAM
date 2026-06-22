@@ -12,10 +12,11 @@ public class Array3D {
 
                 for (int k = 0; k < 3; k++) {
 
-                    System.out.print(arr[i][j][k] + " | ");
+                    System.out.print(arr[i][j][k] + " | "); //3 D array print
+
                 }
                 System.out.println();
-
+               
             }
         }
     }

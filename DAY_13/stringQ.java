@@ -8,6 +8,7 @@ public class stringQ {
         for (int i = 0; i < fru.length(); i++) {
 
             System.out.println(fru.charAt(i));
+
         }
     }
 }

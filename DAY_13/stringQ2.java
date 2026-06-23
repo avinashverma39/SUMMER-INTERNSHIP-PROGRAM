@@ -18,7 +18,6 @@ public class stringQ2 {
                 count++;
 
             }
-
         }
         System.out.println("Total vowel in the string is " + count);
 

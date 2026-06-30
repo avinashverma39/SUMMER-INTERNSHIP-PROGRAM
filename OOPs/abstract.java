@@ -1,15 +1,17 @@
 package OOPs;
 
-abstract class A6 {
+// abstract class abstract
+
+interface A6 {
 
     abstract void show();
 
 }
 
-class D6 extends A6 {
+class D6 implements A6 {
 
     public void show() {
-        System.out.println("Hello show");
+        // System.out.println("Hello show");
     }
 
     public void display() {

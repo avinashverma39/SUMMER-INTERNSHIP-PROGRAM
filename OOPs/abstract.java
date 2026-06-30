@@ -12,12 +12,17 @@ class D6 extends A6 {
         System.out.println("Hello show");
     }
 
+    public void display() {
+        System.out.println("Hello Display");
+    }
+
 }
 
 class C6 {
 
     public static void main(String[] args) {
-        D6 d = new D6();
-        d.show();
+        A6 d = new D6();
+        // d.show();
+        d.display();
     }
 }

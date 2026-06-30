@@ -11,7 +11,6 @@ public class checkSpace {
                 count++;
             }
         }
-
         System.out.println("Total space in the string is: " + count);
 
         System.out.println(s.replace(' ', '_'));

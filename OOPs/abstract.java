@@ -23,6 +23,6 @@ class C6 {
     public static void main(String[] args) {
         A6 d = new D6();
         // d.show();
-        d.display();
+        // d.display();
     }
 }

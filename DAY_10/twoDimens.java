@@ -11,7 +11,7 @@ public class twoDimens {
             for (int j = 0; j < 3; j++) {
                 System.out.print(a[i][j] + " | ");
             }
-
+            
             System.out.println();
 
         }

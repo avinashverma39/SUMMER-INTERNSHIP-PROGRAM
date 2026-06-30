@@ -15,5 +15,6 @@ public class ArrayFunction {
 
         ArrayFunction obj = new ArrayFunction();
         System.out.println(obj.arraySum(arr));
+        System.out.println("sum of array ");
     }
 }

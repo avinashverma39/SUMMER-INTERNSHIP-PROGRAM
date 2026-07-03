@@ -16,14 +16,13 @@ public class mainClass {
         System.out.println(obj2.rectangleArea(12.4, 5.4));
         System.out.println(obj2.circleArea(5));
 
-
         pareMeter obj3 = new pareMeter();
-        System.out.println(obj3.area(12.4, 5.4));   
+        System.out.println(obj3.area(12.4, 5.4));
         System.out.println(obj3.perimeter(12.4, 5.4));
-        System.out.println(obj3.perimeter(5.4));    
-        System.out.println(obj3.area(5));   
+        System.out.println(obj3.perimeter(5.4));
+        System.out.println(obj3.area(5));
         System.out.println(obj3.perimeter2(5));
-        
+        System.out.println(obj3.perimeter2(5));
 
     }
 

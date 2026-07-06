@@ -32,9 +32,10 @@ public class Students {
 
     public static void main(String[] args) {
 
-     Students obj = new Students();
-      Students obj1 = new Students(20);
+        // Students obj = new Students();
 
-    // }
-}
+        // Students obj1 = new Students(20);
+
+        
+    }
 }

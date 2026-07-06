@@ -38,5 +38,17 @@ public class wapperClass {
         int d = c.intValue(); // unboxing
         System.out.println(d);
 
+        // auto boxing and auto unboxing
+
+        // auto boxing - converting a primitive data type into object is called auto
+        // boxing.
+        Integer e = 30; // auto boxing
+        System.out.println(e);
+
+        // auto unboxing - conerting an object into primitive data type is called auto
+        // unboxing.
+        int f = e; // auto unboxing
+        System.out.println(f);
+
     }
 }

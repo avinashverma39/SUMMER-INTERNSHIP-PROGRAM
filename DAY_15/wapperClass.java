@@ -49,6 +49,15 @@ public class wapperClass {
         // unboxing.
         int f = e; // auto unboxing
         System.out.println(f);
-
+          
+        //methods of wrapper class
+        Integer g = 40;
+        System.out.println(g.intValue()); // returns the value of this Integer as an int.
+        System.out.println(g.doubleValue()); // returns the value of this Integer as a double.  
+       System.out.println(g.floatValue()); // returns the   \
+       System.out.println(g.longValue()); // returns the value of this Integer as a long.
+       System.out.println(g.shortValue()); // returns the value of this Integer as a short.
+       
+        
     }
 }

@@ -7,14 +7,14 @@ package DAY_15;
 
 primitive data type                    |
                                        |          object/wrapper class
-     int                               |   integer                             
+     int                               | integer                            
       short                            |    Short                             
-        byte                           |   Byte
-           long                        |   Long
-                float                  |   Float
-                     double            |   Double
-                           char        |   Character
-                             boolean   |   Boolean
+        byte                           |       Byte
+           long                        |          Long
+                float                  |              Float
+                     double            |                   Double
+                           char        |                          Character
+                             boolean   |                                    Boolean
    
 
 

@@ -49,15 +49,19 @@ public class wapperClass {
         // unboxing.
         int f = e; // auto unboxing
         System.out.println(f);
-          
-        //methods of wrapper class
+
+        // methods of wrapper class
         Integer g = 40;
         System.out.println(g.intValue()); // returns the value of this Integer as an int.
-        System.out.println(g.doubleValue()); // returns the value of this Integer as a double.  
-       System.out.println(g.floatValue()); // returns the   \
-       System.out.println(g.longValue()); // returns the value of this Integer as a long.
-       System.out.println(g.shortValue()); // returns the value of this Integer as a short.
-       
-        
+        System.out.println(g.doubleValue()); // returns the value of this Integer as a double.
+        System.out.println(g.floatValue()); // returns the \
+        System.out.println(g.longValue()); // returns the value of this Integer as a long.
+        System.out.println(g.shortValue()); // returns the value of this Integer as a short.
+
+        Integer h = 50;
+        System.out.println(h.compareTo(60)); // returns a negative integer, zero, or a positive integer as this Integer
+                                             // is less than, equal to, or greater than the specified Integer.
+        System.out.println(h.equals(50)); // returns true if this Integer is equal to the specified Integer.
+        System.out.println(h.hashCode()); // returns a hash code for this Integer.
     }
 }

@@ -28,4 +28,15 @@ primitive data type                    |
 
 public class wapperClass {
 
+    public static void main(String args[]) {
+
+        int a = 10;
+        Integer b = Integer.valueOf(a); // wrapping or boxing
+        System.out.println(b);
+
+        Integer c = 20;
+        int d = c.intValue(); // unboxing
+        System.out.println(d);
+
+    }
 }

@@ -29,9 +29,9 @@ public class MultipalEx {
             System.out.println("Divide by zero is not allowed");
         }
 
-        // finally {
-        // System.out.println("Finally block is always executed");
-        // }
+        finally {
+        System.out.println("Finally block is always executed");
+        }
 
         System.out.println("Program End");
     }

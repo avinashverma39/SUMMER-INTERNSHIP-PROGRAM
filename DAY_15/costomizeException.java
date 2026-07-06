@@ -16,7 +16,7 @@ public class costomizeException extends Exception {
 
 class CustomException {
 
-    void canVote(int age) throws costomizeException {
+    static void canVote(int age) throws costomizeException {
 
         if (age < 18) {
 
@@ -30,8 +30,7 @@ class CustomException {
 
         try {
 
-            CustomException obj = new CustomException();
-            obj.canVote(15);
+            canVote(18);
         }
 
         catch (costomizeException e) {

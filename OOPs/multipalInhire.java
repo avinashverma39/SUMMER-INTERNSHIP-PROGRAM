@@ -3,7 +3,7 @@ package OOPs;
 /**
  * InnermultipalInhire
  */
-interface A6 {
+interface A4 {
 
   void show();
 }
@@ -13,7 +13,7 @@ interface B6 {
 
 }
 
-class C6 implements A6, B6 {
+class C6 implements A4, B6 {
 
   public void show() {
     System.out.println("Hello show");

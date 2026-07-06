@@ -1,4 +1,4 @@
-class conditionalStatement{
+class conditionalStatementww{
 
     public static void main(String arge[])
     {

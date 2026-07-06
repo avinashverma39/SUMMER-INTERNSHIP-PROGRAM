@@ -63,5 +63,7 @@ public class wapperClass {
                                              // is less than, equal to, or greater than the specified Integer.
         System.out.println(h.equals(50)); // returns true if this Integer is equal to the specified Integer.
         System.out.println(h.hashCode()); // returns a hash code for this Integer.
+        System.out.println(h.toString()); // returns a string representation of this Integer object.
+
     }
 }

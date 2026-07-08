@@ -5,6 +5,12 @@ import java.util.*;
 public class factorialFun {
 
     public static void printFact(int n) {
+
+        if (n < 0) {
+
+            System.out.println("Invalid number !!");
+            return;
+        }
         int factorial = 1;
 
         for (int i = n; i >= 1; i--) {

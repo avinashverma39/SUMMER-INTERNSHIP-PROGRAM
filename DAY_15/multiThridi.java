@@ -45,13 +45,11 @@ public class multiThridi {
     vote v = new vote();
 
     public static void main(String[] args) {
-        multiThridi m = new multiThridi();
-        m.start();
+        // multiThridi m2 = new multiThridi();
+        // m.start();
     }
 
-    @Override
-    public void run() {
-        v.vote();
-    }
-
+    // @Override
+    // public void run() {
+    // v.vote();
 }

@@ -13,14 +13,14 @@ interface B6 {
 
 }
 
-class C6 implements A4, B6 {
+class C4 implements A4, B6 {
 
   public void show() {
     System.out.println("Hello show");
   }
 
   public static void main(String[] args) {
-    C6 c = new C6();
+    C4 c = new C4();
     c.show();
   }
 }

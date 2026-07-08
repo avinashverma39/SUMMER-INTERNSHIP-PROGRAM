@@ -1,5 +1,7 @@
 package DAY_15;
 
+import DAY_6.vote;
+
 // MultiThreading is a process of executing multiple threads simultaneously. A thread is a lightweight sub-process, the smallest unit of processing. It is a separate path of execution. This means that your program will have two or more different flows of control at the same time.
 
 //Adavantages of MultiThreading
@@ -39,5 +41,17 @@ package DAY_15;
                                                        
                                                     */
 public class multiThridi {
+
+    vote v = new vote();
+
+    public static void main(String[] args) {
+        multiThridi m = new multiThridi();
+        m.start();
+    }
+
+    @Override
+    public void run() {
+        v.vote();
+    }
 
 }

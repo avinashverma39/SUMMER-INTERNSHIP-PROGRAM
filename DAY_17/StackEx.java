@@ -53,9 +53,28 @@ public class StackEx {
         System.out.println("Top element is: " + stack[top]);
     }
 
+    void isEmpty() {
+        if (top == -1) {
+            System.out.println("Stack is empty!!");
+            return;
+        }
+        System.out.println("Stack is not empty!!");
+    }
+
+    void isFull() {
+        if (top == size - 1) {
+            System.out.println("Stack is full!!");
+            return;
+        }
+        System.out.println("Stack is not full!!");
+    }
+
     public static void main(String args[]) {
 
         StackEx obj = new StackEx(6);
+
+        obj.isEmpty();
+        obj.isFull();
         obj.push(122);
         obj.push(120);
         obj.push(120);
@@ -63,6 +82,7 @@ public class StackEx {
         obj.push(120);
         obj.push(1320);
         obj.peek();
+
         obj.pop();
         obj.pop();
         obj.pop();
@@ -70,6 +90,7 @@ public class StackEx {
         obj.pop();
         obj.pop();
         obj.peek();
+
         obj.display();
 
     }

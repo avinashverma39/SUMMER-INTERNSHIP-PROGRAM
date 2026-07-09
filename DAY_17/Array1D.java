@@ -5,7 +5,7 @@ public class Array1D {
 
     public static void Array1D_w(int n[]) {
 
-        int arr[] = { 10, 30, 40, 50, 60 };
+        int arr[] = { };
 
         for (int i = 0; i < arr.length; i++) {
 
@@ -18,7 +18,7 @@ public class Array1D {
 
     public static void main(String args[]) {
 
-        Array1D_w(null);
+        Array1D_w (new int[] { 10, 30, 40, 50, 60 });
 
     }
 

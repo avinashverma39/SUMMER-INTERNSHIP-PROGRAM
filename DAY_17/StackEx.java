@@ -53,20 +53,24 @@ public class StackEx {
         System.out.println("Top element is: " + stack[top]);
     }
 
-    void isEmpty() {
+    boolean isEmpty() {
         if (top == -1) {
             System.out.println("Stack is empty!!");
-            return;
+            return true;
         }
         System.out.println("Stack is not empty!!");
+        return false;
     }
 
-    void isFull() {
+    
+
+    boolean isFull() {
         if (top == size - 1) {
             System.out.println("Stack is full!!");
-            return;
+            return true;
         }
         System.out.println("Stack is not full!!");
+        return false;
     }
 
     public static void main(String args[]) {

@@ -8,12 +8,10 @@ public class Main {
 
     public static void main(String[] args) {
         int choice;
-        boolean running = true; 
+        boolean running = true;
 
         // Welcome message
-        System.out.println("=================================");
         System.out.println("   Welcome to Simple Banking");
-        System.out.println("=================================\n");
 
         // Main menu loop - keeps running until user chooses to exit
         while (running) {

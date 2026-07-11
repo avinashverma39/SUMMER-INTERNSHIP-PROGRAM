@@ -20,7 +20,7 @@ public class listRepersented {
 
     void addEdge(int source, int destination) {
         graph[source].add(destination);
-        graph[destination].add(source);
+        graph[destination].add(source); // For undirected graph
     }
 
     void displayGraph() {
@@ -33,9 +33,8 @@ public class listRepersented {
         }
     }
 
-}
 
-class Graphs {
+// class Graphs {
     public static void main(String[] args) {
         listRepersented g = new listRepersented(5);
         g.addEdge(0, 1);
@@ -51,3 +50,4 @@ class Graphs {
         // g.totalEdges();
     }
 }
+// }

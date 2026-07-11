@@ -53,9 +53,9 @@ public class setsExample {
         for (int i = 0; i < 10; i++) {
             set3.add("Number " + i);
         }
-        
+
         for (int i = 0; i < 10; i++) {
-            set3.add("Number " + i);
+            set6.add("Number " + i);
         }
 
         set7.add("Java");
@@ -63,6 +63,10 @@ public class setsExample {
         set7.add("C++");
         set7.add("JavaScript");
         set7.add("java");
+
+        for (int i = 0; i < 10; i++) {
+            set7.add("Number " + i);
+        }
     }
 
 }

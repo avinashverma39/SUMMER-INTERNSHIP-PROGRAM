@@ -40,9 +40,9 @@ public class listRepersented {
 
     void edgeExists(int source, int destination) {
         if (graph[source].contains(destination)) {
-            System.out.println("Edge exists between ");
+            System.out.println("Edge exists between " + source + " and " + destination);
         } else {
-            System.out.println("Edge does not exist between ");
+            System.out.println("Edge does not exist between " + source + " and " + destination);
         }
     }
 

@@ -38,6 +38,22 @@ public class listRepersented {
         graph[destination].remove(Integer.valueOf(source)); // For undirected graph
     }
 
+    void edgeExists(int source, int destination) {
+        if (graph[source].contains(destination)) {
+            System.out.println("Edge exists between " + source + " and " + destination);
+        } else {
+            System.out.println("Edge does not exist between " + source + " and " + destination);
+        }
+    }
+
+    void totalEdges() {
+        int count = 0;
+        for (int i = 0; i < vertices; i++) {
+            count += graph[i].size();
+        }
+        System.out.println("Total number of edges: " + (count / 2)); // Divide by 2 for undirected graph
+    }
+
     // class Graphs {
     public static void main(String[] args) {
         listRepersented g = new listRepersented(5);
@@ -48,12 +64,13 @@ public class listRepersented {
         g.addEdge(2, 3);
         g.addEdge(2, 4);
 
-        
+        g.displayGraph();
+
         g.removeEdge(0, 3);
         // g.removeEdge(1, 3);
         g.displayGraph();
-        // g.edgeExists(0, 1);
-        // g.totalEdges();
+        g.edgeExists(0, 1);
+        g.totalEdges();
     }
 }
 // }

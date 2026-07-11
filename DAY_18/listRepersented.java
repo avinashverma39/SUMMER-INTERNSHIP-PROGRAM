@@ -11,10 +11,10 @@ public class listRepersented {
 
     listRepersented(int v) {
         this.vertices = v;
-        graph = new LinkedList[vertices];
+        this.graph = new LinkedList[vertices];
 
         for (int i = 0; i < vertices; i++) {
-            graph[i] = new LinkedList<>();
+            this.graph[i] = new LinkedList<>();
         }
     }
 
@@ -46,7 +46,7 @@ class Graphs {
         g.addEdge(2, 4);
 
         // g.removeEdge(1, 3);
-
+        g.displayGraph();
         // g.edgeExists(0, 1);
         // g.totalEdges();
     }

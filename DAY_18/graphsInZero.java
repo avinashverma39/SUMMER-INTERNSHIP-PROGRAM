@@ -33,12 +33,12 @@ public class graphsInZero {
     }
 
     void removeEdge(int source, int destination) {
-        graph[source][destination] = 0;
-        graph[destination][source] = 0;
+        graph[source][destination] = -1;
+        graph[destination][source] = -1;
     }
 
     void edgeExists(int source, int destination) {
-        if (graph[source][destination] != 0) {
+        if (graph[source][destination] != -1) {
             System.out.println("Edge exists");
         } else {
             System.out.println("Edge does not exist");

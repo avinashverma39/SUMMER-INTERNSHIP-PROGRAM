@@ -33,8 +33,12 @@ public class listRepersented {
         }
     }
 
+    void removeEdge(int source, int destination) {
+        graph[source].remove(Integer.valueOf(destination));
+        graph[destination].remove(Integer.valueOf(source)); // For undirected graph
+    }
 
-// class Graphs {
+    // class Graphs {
     public static void main(String[] args) {
         listRepersented g = new listRepersented(5);
         g.addEdge(0, 1);
@@ -44,6 +48,8 @@ public class listRepersented {
         g.addEdge(2, 3);
         g.addEdge(2, 4);
 
+        
+        g.removeEdge(0, 3);
         // g.removeEdge(1, 3);
         g.displayGraph();
         // g.edgeExists(0, 1);

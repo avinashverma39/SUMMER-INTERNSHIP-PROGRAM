@@ -10,10 +10,10 @@ public class mapsExample {
         HashMap<Integer, String> map1 = new HashMap<>();
         LinkedHashMap<Integer, String> map2 = new LinkedHashMap<>();
         TreeMap<Integer, String> map3 = new TreeMap<>();
-        map1.put(101, " One");
-        map1.put(102, " Two");
-        map1.put(103, " Three");
-        map1.put(104, " Four");
+        map1.put(101, " RR");
+        map1.put(102, " VR");
+        map1.put(103, " AR");
+        map1.put(104, "SR");
 
         map2.put(101, " One");
         map2.put(102, " Two");
@@ -25,9 +25,9 @@ public class mapsExample {
         map3.put(103, " Three");
         map3.put(104, " Four");
 
-        map1.put(102, " Two");
-        map1.put(103, " Three");
-        map1.put(104, " Four");
+        map2.put(102, " Two");
+        map2.put(103, " Three");
+        map2.put(104, " Four");
 
         System.out.println("Map 1: " + map1);
         System.out.println("Map 2: " + map2);

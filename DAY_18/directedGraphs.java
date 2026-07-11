@@ -1,18 +1,18 @@
 package DAY_18;
 
-public class Graphs {
+public class directedGraphs {
 
     int vertices;
     int graph[][];
 
-    Graphs(int v) {
+    directedGraphs(int v) {
         vertices = v;
         graph = new int[vertices][vertices];
     }
 
     void addEdge(int source, int destination) {
         graph[source][destination] = 1;
-        graph[destination][source] = 1;
+        // graph[destination][source] = 1;
 
     }
 

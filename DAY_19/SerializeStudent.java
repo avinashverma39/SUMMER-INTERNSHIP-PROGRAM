@@ -19,7 +19,12 @@ public class SerializeStudent {
             ArrayList<fileHendling> students = new ArrayList<>();
             // Create a new student object
             students.add(new fileHendling(10112, "John Doe", "Computer Science"));
+            System.out.println("------------------------------");
             students.add(new fileHendling(10113, "Jane Smith", "Mathematics"));
+            students.add(new fileHendling(10114, "Alice Johnson", "Physics"));
+            students.add(new fileHendling(10114, "Aman", "PHP"));
+            students.add(new fileHendling(10114, "RAM Johnson", "JAVA"));
+            students.add(new fileHendling(10114, " Johnson", "PHYTHON"));
             students.add(new fileHendling(10114, "Alice Johnson", "Physics"));
             // Serialize the ArrayList of Student objects to a file
 

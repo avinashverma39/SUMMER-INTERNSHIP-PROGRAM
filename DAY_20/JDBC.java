@@ -7,7 +7,8 @@ import java.sql.SQLException;
 // Java Database Connectivity
 public class JDBC {
 
-    static final String DB_URL = "jdbc:mysql://localhost:3306/rr";
+    static final String DB_URL = "jdbc:mysql://localhost:3306/RRGI";
+
     static final String USER = "root";
     static final String PASS = "root";
     static Connection conn = null;
@@ -20,6 +21,8 @@ public class JDBC {
             System.out.println("Connection failed: " + e.getMessage());
         }
     }
+
+
 
     public static void main(String[] args) {
         connect();
